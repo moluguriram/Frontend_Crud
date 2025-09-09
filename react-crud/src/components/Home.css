@@ -1,0 +1,121 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-body{
+    border: 2px solid;
+    height: 100vh;
+    width: 220px;
+    padding: 10px;
+}
+
+.card-img-top{
+    
+    height: 100px;
+   width: 100px; */
+/* } */
+
+#main{
+  display: flex;
+  /* border: 2px solid; */
+  flex-direction: column;
+}
+
+.main1{
+  margin-left: 500px;
+  margin-bottom: 5px;
+
+}
+
+#sub-main{
+  /* border: 2px solid red; */
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+/* Individual card */
+.user-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  border: 2px solid;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  margin-left: 10px;
+  width: 280px
+  
+ 
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+
+.card-img-top {
+  height: 180px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 2px 0;
+}
+
+
+.btn{
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.2s ease;
+ 
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+  margin-bottom: 5px;
+  
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
